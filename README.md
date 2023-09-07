@@ -1,4 +1,4 @@
-# dao_escrow
+# Partners Node version: Mainnet or Testnet
 ## Script Requirement
 
 ```
