@@ -2,7 +2,7 @@
 ## Script Requirement
 
 ```
-Golang needs to be installed on your os, check link for your os: https://go.dev/doc/install
+ Install golang on your os: [See installation](https://go.dev/doc/install)
 ```
 ### Project setup run below script to clone the repository
 
