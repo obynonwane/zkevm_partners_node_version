@@ -42,7 +42,9 @@ func (app *App) reader() {
 		if mode == "mainnet" {
 			switch item.Name {
 			case "alchemy":
-				domain = item.Domain + "/" + os.Getenv("ALCHEMY_KEY")
+				domain = item.Domain + "/" + os.Getenv("ALCHEMY_API_KEY")
+			case "infura":
+				domain = item.Domain + "/" + os.Getenv("INFURA_API_KEY")
 			default:
 				domain = item.Domain
 			}
