@@ -39,4 +39,4 @@ make testnet
 ```
 
 ## Contributors
-- Obinna Johnson (@darealobinna)
+- Obinna Johnson [@darealobinna](https://twitter.com/darealobinna)
