@@ -38,6 +38,5 @@ make mainnet
 make testnet
 ```
 
-### Customize configuration
-
-See [Configuration Reference](http://cli.vuejs.org/config/).
+## Contributors
+- Obinna Johnson (@darealobinna)
