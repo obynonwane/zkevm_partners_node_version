@@ -3,7 +3,7 @@
 
  Install golang on your os: [See installation](https://go.dev/doc/install)
 
-### Project setup run below script to clone the repository
+### Run below script to clone the repository to your working directory
 
 ```
 git clone https://github.com/obynonwane/zkevm_partners_node_version.git
