@@ -1,0 +1,14 @@
+[
+    {
+        "name":"ankr",
+        "domain":"https://rpc-ankr.public.zkevm-test.net"
+    },
+    {
+        "name":"alchemy",
+        "domain":"https://rpc-alchemy.public.zkevm-test.net"
+    },
+    {
+        "name":"chainlink",
+        "domain":"https://rpc-chainlink.public.zkevm-test.net"
+    }
+]
