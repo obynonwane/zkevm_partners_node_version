@@ -1,9 +1,8 @@
 # Partners Node version: Mainnet or Testnet
 ## Script Requirement
 
-```
  Install golang on your os: [See installation](https://go.dev/doc/install)
-```
+
 ### Project setup run below script to clone the repository
 
 ```
