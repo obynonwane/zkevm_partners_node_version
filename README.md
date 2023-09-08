@@ -31,14 +31,14 @@ touch .env
 ```
 make mainnet
 ```
-
+![Image Alt Text](https://res.cloudinary.com/dxec82vds/image/upload/v1694132865/Screenshot_2023-09-08_at_01.23.52_x5umpx.png)
 ### Run the below command for node versions on testnet
 
 ```
 make testnet
 ```
 
-![Image Alt Text](https://res.cloudinary.com/dxec82vds/image/upload/v1694132281/Screenshot_2023-09-08_at_01.16.29_qzlcl5.png)
+![Image Alt Text](https://res.cloudinary.com/dxec82vds/image/upload/v1694132523/Screenshot_2023-09-08_at_01.21.27_upojd3.png)
 
 ## Contributors
 - Obinna Johnson [@darealobinna](https://twitter.com/darealobinna)
