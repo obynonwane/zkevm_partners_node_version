@@ -55,11 +55,11 @@ func (app *App) makeExternalCall(url, partner string) {
 		log.Println("Error reading response body:", err)
 		return
 	}
-	log.Printf("------------------------%s Node Status & Version-----------------------------", partner)
-	log.Printf("Node Partner: %s", partner)
-	log.Printf("Partner Network: %s", os.Getenv("MODE"))
-	log.Printf("Partner Domain: %s", url)
-	log.Println(string(responseBody))
-	log.Printf("-----------------------------------------------------------------------------")
+	log.Println("--------------------------------------------------")
+	log.Printf("%-50s %s", "Partner:", partner)
+	log.Printf("%-50s %s", "Network:", os.Getenv("MODE"))
+	log.Printf("%-50s %s", "Domain:", url)
+	log.Printf("%-50s %s", "Response Body:", string(responseBody))
+	log.Println("--------------------------------------------------")
 
 }
