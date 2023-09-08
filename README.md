@@ -38,5 +38,7 @@ make mainnet
 make testnet
 ```
 
+![Image Alt Text](https://res.cloudinary.com/dxec82vds/image/upload/v1694132281/Screenshot_2023-09-08_at_01.16.29_qzlcl5.png)
+
 ## Contributors
 - Obinna Johnson [@darealobinna](https://twitter.com/darealobinna)
