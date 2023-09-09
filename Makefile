@@ -11,4 +11,4 @@ testnet:
 	@echo "Checking Partners Node version started!"
 
 
-.PHONY: run-testnet run-mainnet
+.PHONY: mainnet testnet
