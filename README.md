@@ -21,11 +21,6 @@ cd zkevm_partners_node_version
 go mod tidy
 ```
 
-#### Create .env from env.example enter the different api key for partner requring authentication
-```
-touch .env
-```
-
 #### Run the below command for node versions on mainnet
 
 ```

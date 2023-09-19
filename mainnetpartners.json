@@ -10,5 +10,14 @@
     {
         "name":"bwarelabs",
         "domain":"https://polygon-zkevm-mainnet.blastapi.io"
+    },
+    {
+        "name":"thegraph-matic",
+        "domain":"https://a3149588140315c60d68e495bd82e774.zkevm-rpc.com/"
+    },
+    {
+        "name":"zkevm",
+        "domain":"https://zkevm-rpc.com/"
     }
+
 ]
