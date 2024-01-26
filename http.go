@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"sync"
 )
 
 type RequestPayload struct {
@@ -18,7 +19,8 @@ type RequestPayload struct {
 
 // custom json response type
 
-func (app *App) makeExternalCall(url, partner string) {
+func (app *App) makeExternalCall(url, partner string, wg *sync.WaitGroup) {
+	defer wg.Done() // Decrease the wait group counter when the function completes
 
 	requestBody := RequestPayload{
 		Jsonrpc: "2.0",
@@ -27,10 +29,10 @@ func (app *App) makeExternalCall(url, partner string) {
 		ID:      1,
 	}
 
-	// create some json we'll send to the auth microservice
+	// Create some JSON to send to the external service
 	jsonData, _ := json.MarshalIndent(requestBody, "", "\t")
 
-	// call the service by creating a request
+	// Create a request
 	request, err := http.NewRequest("POST", url, bytes.NewBuffer(jsonData))
 	if err != nil {
 		log.Println(err)
@@ -40,7 +42,7 @@ func (app *App) makeExternalCall(url, partner string) {
 	// Set the Content-Type header
 	request.Header.Set("Content-Type", "application/json")
 
-	//creat
+	// Create a client and make the request
 	client := &http.Client{}
 	resp, err := client.Do(request)
 	if err != nil {
@@ -61,5 +63,4 @@ func (app *App) makeExternalCall(url, partner string) {
 	log.Printf("%-50s %s", "Domain:", url)
 	log.Printf("%-50s %s", "Response Body:", string(responseBody))
 	log.Println("--------------------------------------------------")
-
 }

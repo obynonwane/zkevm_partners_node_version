@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"sync"
 )
 
 type Partner struct {
@@ -49,6 +50,16 @@ func (app *App) reader() {
 		} else {
 			domain = item.Domain
 		}
-		app.makeExternalCall(domain, item.Name)
+
+		var wg sync.WaitGroup
+		wg.Add(1) //incrememts the wait group counter by 1
+
+		// Run the makeExternalCall function as a goroutine
+		go app.makeExternalCall(domain, item.Name, &wg)
+
+		// Wait for the goroutine to complete i.e the counter to reach zero
+		//blocks until the counter becomes zero
+		wg.Wait()
+
 	}
 }
