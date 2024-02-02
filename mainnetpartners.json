@@ -8,6 +8,34 @@
         "domain":"https://polygonzkevm-mainnet.g.alchemy.com/v2/rWTHa3PmKbknm_Pl2Vbyv3siwmymxPPb"
     },
     {
+        "name":"chainlink",
+        "domain":"https://c5a17af8b441ff8ae6ac3f3d0fbe5383.zkevm-rpc.com"
+    },
+    {
+        "name":"layerzero",
+        "domain":"https://ce6ce368ae639ba1420b7b3a13a2a03b.zkevm-rpc.com"
+    },
+    {
+        "name":"fireblocks",
+        "domain":"https://6443af9c9b0afa3ee6c724bb8695932c.zkevm-rpc.com"
+    },
+    {
+        "name":"gnosis",
+        "domain":"https://ced7befbfd62689e1204aebbc15e9bc3.zkevm-rpc.com"
+    },
+    {
+        "name":"pancakeswap",
+        "domain":"https://f2562de09abc5efbd21eefa083ff5326.zkevm-rpc.com"
+    },
+    {
+        "name":"polygonwallet",
+        "domain":"https://4731989fb4f6c0ee961c2c3e26dd9da0.zkevm-rpc.com"
+    },
+    {
+        "name":"quickswap",
+        "domain":"https://9d97b059d72c16e99e3bdf5afd6ddd2f.zkevm-rpc.com"
+    },
+    {
         "name":"bwarelabs",
         "domain":"https://polygon-zkevm-mainnet.blastapi.io"
     },

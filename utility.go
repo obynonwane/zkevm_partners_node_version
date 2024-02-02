@@ -52,7 +52,7 @@ func (app *App) reader() {
 		}
 
 		var wg sync.WaitGroup
-		wg.Add(1) //incrememts the wait group counter by 1
+		wg.Add(1) //incrememts the wait group counter by 1 everytime
 
 		// Run the makeExternalCall function as a goroutine
 		go app.makeExternalCall(domain, item.Name, &wg)
