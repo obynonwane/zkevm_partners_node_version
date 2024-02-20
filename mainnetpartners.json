@@ -37,7 +37,7 @@
     },
     {
         "name":"bwarelabs",
-        "domain":"https://polygon-zkevm-mainnet.blastapi.io"
+        "domain":"https://polygon-zkevm-mainnet.public.blastapi.io/"
     },
     {
         "name":"thegraph-matic",
@@ -46,6 +46,14 @@
     {
         "name":"zkevm",
         "domain":"https://zkevm-rpc.com/"
+    },
+    {
+        "name":"quick-node",
+        "domain":"https://alpha-cosmological-patron.zkevm-mainnet.quiknode.pro/6eb0e56d22bf641fc89f0c610d559b6eaafb6083/"
+    },
+    {
+        "name":"nodies",
+        "domain":"https://lb.nodies.app/v1/5a1dda1771eb4b018220e46fcdb259cc"
     }
 
 ]
